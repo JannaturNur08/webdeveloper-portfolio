@@ -224,10 +224,37 @@ main {
 
 /* footer style */
 footer {
-    width: 1600px;
-    height: 780px;
-    flex-shrink: 0;
+    display: flex;
+    gap: 100px;
     background: #FFF8F3;
     margin-top: 100px;
     padding: 130px 200px;
+    
 }
+.footer-column {
+    width: 50%;
+}
+.section-title{
+    text-align: left;
+    padding-bottom: 0px;
+}
+.section-description{
+    text-align: left;
+    width: 562px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.social-links a{
+    margin-right: 24px;
+}
+.contact input[type="text"],.contact input[type="email"], textarea{
+    display: block;
+    margin-bottom: 24px;
+    padding: 18px 35px;
+    color: #757575;
+    border: 0;
+    border-radius: 5px;
+    width: 100%;
+    
+}
+
